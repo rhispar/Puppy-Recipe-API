@@ -1,0 +1,92 @@
+header
+{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 6em;
+  left: 0;
+  top: 0;
+  text-align: center;
+  z-index: 3;
+}
+
+#headerBanner
+{
+  margin: 0px 0px 0px 0px;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  background: #123;
+  z-index: 4;
+  position: relative;
+}
+
+h1
+{
+  margin: 20px 0px 0px 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+  background: -webkit-linear-gradient(orange, crimson);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(2px 4px 4px rgba(5, 5, 5, 1));
+}
+
+body
+{
+  font-family: 18px 'Lora', serif;
+  margin: auto;
+  background-image: url("https://images.unsplash.com/photo-1555766720-1e727844cc8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#app
+{
+  border: auto;
+  margin: 6em 0px 0px 0px;
+  padding: 25px 10px 0px 10px;
+  height: 100%;
+  position: relative;
+  top: 10%;
+  z-index: 1;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#recipe
+{
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 9px 9px rgba(90, 90, 90, 0.4);
+  z-index: 2;
+  margin: 0px 30px 45px 15px;
+  padding: 0px 0px 5px 0px;
+  width: 20em;
+  height: auto;
+  align-text: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#thumb
+{
+  background: #333;
+  align-content: center;
+}
+
+#recipeTitle
+{
+  font-family:'Comfortaa', cursive;
+  color: whitesmoke;
+  background-color: #00827f;
+  padding: 9px;
+  margin: 0px 0px 20px 0px;
+}
+
+#ingreds
+{
+  color: #e86100;
+  padding: 0px 30px 0px 30px;
+}
